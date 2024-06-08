@@ -1,0 +1,59 @@
+Rules for conversion from English to bolnagari
+----------------------------------------------
+
+1. 'a' after a consonent means a full consonent whereas if consonent isn't ending with 'a' we have to output half consonent.
+2. If the first akshar of a shabd is a vowel, then the output should be a full vowel.
+3. Also, if the vowel is appearing after a consonent which is ending with 'a', the output should be a full vowel.
+4. If there is a vowel after a half consonent, the maatra of that vowel will be appended to the previous consonent.
+
+isValidVowel()
+isValidConsonent()
+
+महाभारत
+
+word()	// takes a word inside the word from the array
+int count=0;
+while (mapped[i]==isValidVowel() || mapped[i]==isValidconsonent && flag==0)
+	{
+	inpStr[j] = mapped[i]
+	i++;
+	j++;
+	if(mapped[i]==' ' || mapped[i]=='\n' || mapped[i]=='\t'){flag = 1;}
+	if(mapped[i]!=' ' || mapped[i]!='\n' || mapped[i]!='\t'){inpStr[j] = mapped[i];}
+	count++;
+	}
+	
+	int k=0;
+	char ar1[];
+	c=j-2;
+	while(k<3){
+		ar1[k] = inpStr[c];
+		k++
+		j++;
+	}
+	
+	int r=0;
+	int l=k;
+	
+	while(l>=0){
+	if(isValidVowel(ar1)){
+		while(r<k){
+		inpStr[count]=='\0';
+		count--;
+		r++;
+	}
+	else
+	reduceFunct(ar1);
+	}
+	
+void reduceFunct(char ar[]){
+	p=0;
+	while(p<=k){
+	if(p==k){ar1[p]=='\0';}
+	else{
+	ar1[p] = ar1[p+1];
+	p++;
+	}
+	}
+	
+	
